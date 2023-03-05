@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <com.example.vectoranalogclock.VectorAnalogClock
+        android:id="@+id/clockLt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <com.example.vectoranalogclock.VectorAnalogClock
+        android:id="@+id/clockRt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <com.example.vectoranalogclock.VectorAnalogClock
+        android:id="@+id/clockLb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <com.example.vectoranalogclock.VectorAnalogClock
+        android:id="@+id/clockRb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <com.example.vectoranalogclock.VectorAnalogClock
+        android:id="@+id/clockC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/clockLt"
+        android:layout_above="@id/clockLb"
+        android:padding="10dp"/>
+
+</RelativeLayout>
